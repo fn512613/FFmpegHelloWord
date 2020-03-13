@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hnN-7F-Shd">
+                                <rect key="frame" x="52" y="130" width="70" height="30"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="4hS-PY-IQf"/>
+                                    <constraint firstAttribute="height" constant="30" id="fgB-j8-B0A"/>
+                                </constraints>
+                                <state key="normal" title="protocol">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickProtocol:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FhZ-i8-uQd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A8i-Ik-dXf">
+                                <rect key="frame" x="52" y="188" width="70" height="30"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="TVF-JY-zgq"/>
+                                    <constraint firstAttribute="height" constant="30" id="thh-x6-zrx"/>
+                                </constraints>
+                                <state key="normal" title="AVFilter">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickAVFilter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dBP-2J-852"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gpD-lJ-jFO">
+                                <rect key="frame" x="296" y="130" width="70" height="30"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Raj-Cj-Dol"/>
+                                    <constraint firstAttribute="width" constant="70" id="dgG-3C-ef9"/>
+                                </constraints>
+                                <state key="normal" title="AVCodec">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickAVCodec:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bn2-lY-4dC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WAJ-G1-WwL">
+                                <rect key="frame" x="172" y="130" width="70" height="30"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="IlY-ib-Zv2"/>
+                                    <constraint firstAttribute="height" constant="30" id="ua6-aK-b2z"/>
+                                </constraints>
+                                <state key="normal" title="AVFormat">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickAVFormat:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6hP-Bm-7QF"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XRJ-Tk-sYH">
+                                <rect key="frame" x="20" y="239" width="374" height="607"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1CB-7S-hY4">
+                                <rect key="frame" x="172" y="188" width="70" height="30"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="Cpr-0f-3rY"/>
+                                    <constraint firstAttribute="height" constant="30" id="qgA-8h-AhF"/>
+                                </constraints>
+                                <state key="normal" title="Configure">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickConfigure:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pny-zN-4jz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="XRJ-Tk-sYH" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="195" id="1rD-GC-iDJ"/>
+                            <constraint firstItem="1CB-7S-hY4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7Ms-GQ-ds4"/>
+                            <constraint firstItem="1CB-7S-hY4" firstAttribute="top" secondItem="WAJ-G1-WwL" secondAttribute="bottom" constant="28" id="Dzl-FA-epC"/>
+                            <constraint firstItem="A8i-Ik-dXf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="52" id="EQH-KD-BV8"/>
+                            <constraint firstItem="A8i-Ik-dXf" firstAttribute="top" secondItem="hnN-7F-Shd" secondAttribute="bottom" constant="28" id="RBM-Iu-1er"/>
+                            <constraint firstItem="WAJ-G1-WwL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wwb-gt-qSY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XRJ-Tk-sYH" secondAttribute="bottom" constant="16" id="XBr-0O-nDL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gpD-lJ-jFO" secondAttribute="trailing" constant="48" id="YhW-Ac-cZL"/>
+                            <constraint firstItem="WAJ-G1-WwL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="86" id="YkH-Ir-b16"/>
+                            <constraint firstItem="XRJ-Tk-sYH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="dVd-p5-k6y"/>
+                            <constraint firstItem="hnN-7F-Shd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="52" id="jUM-E3-pCf"/>
+                            <constraint firstItem="gpD-lJ-jFO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="86" id="jUi-mH-84z"/>
+                            <constraint firstItem="hnN-7F-Shd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="86" id="qmD-fB-WCH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XRJ-Tk-sYH" secondAttribute="trailing" constant="20" id="yIu-eM-3SH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="XRJ-Tk-sYH" id="3Jf-Zu-fnO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="89.732142857142847"/>
+        </scene>
+    </scenes>
+</document>
